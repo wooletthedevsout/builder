@@ -1,0 +1,21 @@
+{
+    "name": "wooletthedevsout/builder",
+    "description": "Builder engine for the WLTDO framework.",
+    "type": "library",
+    "require": {
+        "nette/php-generator": "4.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wooletthedevsout\\Builder\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "minimum-stability": "dev"
+}
